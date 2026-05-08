@@ -42,7 +42,6 @@ def divided_difference_table(nodes, values):
     for j in range(1, n):
         for i in range(n-j):
             table[i][j] = (table[i+1][j-1] - table[i][j-1]) / (nodes[i+j] - nodes[i])
-
     return table
 
 def newton_interpolate(x, nodes, values):
