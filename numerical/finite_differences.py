@@ -73,7 +73,7 @@ def compute_acceleration(vx, vy, dt, method="central"):
 
 #Returns speed at certain frame
 def compute_speed(vx, vy):
-    return np.sqrt(vx**2, vy**2)
+    return np.sqrt(vx**2 + vy**2)
 
 #This method gives launch angle in degrees
 def compute_launch_angle(vx, vy, frame=0):
