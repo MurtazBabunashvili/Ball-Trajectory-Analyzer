@@ -1,6 +1,13 @@
-<<<<<<< HEAD
-.idea/
-=======
-.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.venv/
+venv/
+
 Dataset/
->>>>>>> 2490a31 (feat(add): drag_model and vacuum_model)
+
+.idea/
+
+data/outputs/
