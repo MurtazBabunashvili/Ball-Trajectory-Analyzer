@@ -13,11 +13,7 @@ def backward_difference(f,x,h):
     return (f(x) - f(x-h))/h
 
 def central_difference(f, x, h):
-<<<<<<< HEAD
-    return (f(x+h) - f(x-h))/2*h
-=======
     return (f(x+h) - f(x-h))/(2*h)
->>>>>>> 2490a31 (feat(add): drag_model and vacuum_model)
 
 def second_derivative(f, x, h):
     return (f(x+h) - 2*f(x) + f(x-h))/ h**2
